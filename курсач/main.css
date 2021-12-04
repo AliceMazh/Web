@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+*{margin:0;padding:0}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+  }
+  .a{
+    color: cornsilk;
+  }
+ #gradient
+ {
+   width: 100%;
+   height: 100%;
+   padding: 0px;
+   margin: 0px;
+ }
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 8px 50px;
+    background: #b093c4;
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
+    height: auto;
+}
+#logo {
+    width: 50px;
+    transition: 0.3s;
+}
+#logo:hover {
+    transform: scale(1.2);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1em 2em;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    transition: 0.3s;
+}
+nav a:hover {
+    border: 1px solid #f05454;
+}
+
+footer {
+    background: #726b74;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display:flex;
+    justify-content:center;
+    size:15px;
+    color:cornsilk;
+}
+h2{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+#section{
+    display: flex;
+    width: 100%;
+    height: 20em;
+}
+.parag{
+    display:flex;
+    justify-content:space-around;
+    size:15px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20em;
+    flex-direction: column;
+    background: #fcfcfc;
+    border-radius: 10px;
+    text-align: center;
+}
+.text{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:70%
+}
+.conclusion{
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color:cornsilk;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #fdfdfd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #65799b 0%,#5e2563 100%);
+}
+@media(max-width:1245px){
+    body{
+        width: max-content;
+    }
+    #section{
+        width: 1200px;
+        padding-left: 50px;
+    }
+}
